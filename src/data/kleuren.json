@@ -1,0 +1,74 @@
+[
+  {
+    "descriptions": "Uitgroei behandeling",
+    "price": "35,00"
+  },
+  {
+    "descriptions": "Ontkleuren kort haar",
+    "price": "35,00"
+  },
+  {
+    "descriptions": "Ontkleuren halflang haar",
+    "price": "40,00"
+  },
+  {
+    "descriptions": "Ontkleuren lang haar",
+    "price": "47,00"
+  },
+  {
+    "descriptions": "Totale kleuring kort haar",
+    "price": "45,00"
+  },
+  {
+    "descriptions": "Totale kleuring lang haar",
+    "price": "59,00"
+  },
+  {
+    "descriptions": "Spoeling kort haar",
+    "price": "28,50"
+  },
+  {
+    "descriptions": "Spoeling lang haar",
+    "price": "39,50"
+  },
+  {
+    "descriptions": "Toner kort haar",
+    "price": "20,00"
+  },
+  {
+    "descriptions": "Toner halflang haar",
+    "price": "25,00"
+  },
+  {
+    "descriptions": "Toner lang haar",
+    "price": "30,00"
+  },
+  {
+    "descriptions": "Highlights totaal kort haar",
+    "price": "33,50"
+  },
+  {
+    "descriptions": "Highlights totaal halflang haar",
+    "price": "57,00"
+  },
+  {
+    "descriptions": "Highlights totaal lang haar",
+    "price": "85,00"
+  },
+  {
+    "descriptions": "Highlights scalp kort haar",
+    "price": "29,00"
+  },
+  {
+    "descriptions": "Highlights scalp halflang haar",
+    "price": "47,00"
+  },
+  {
+    "descriptions": "Highlights scalp lang haar",
+    "price": "60,00"
+  },
+  {
+    "descriptions": "Toeslag extra product/meerdere kleuren",
+    "price": "10,00"
+  }
+]

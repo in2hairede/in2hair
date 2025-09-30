@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@theme {
+  --text-10xl: 10rem;
+  --breakpoint-xs: 320px;
+  --breakpoint-sm: 640px;
+  --color-drk-gray: theme(colors.gray.700);
+  --color-cgreen: theme(colors.green.600);
+
+  --animate-zoom-in: zoomSlow 0.8s ease-in-out 1 forwards;
+  --animate-zoom-in-pepeat: zoomSlow 7s ease-in-out infinite alternate;
+  --animate-fadeIn: fadeIn 1.5s ease-in-out forwards;
+
+  @keyframes zoomSlow {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(0.9);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+}
+
+/* @layer utilities {
+  .animate-zoom-slow {
+    animation: zoomSlow 0.8s ease-in-out forwards;
+  }
+
+  .animate-zoom-slow-repeat {
+    animation: zoomSlow 7s ease-in-out infinite alternate;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 1.5s ease-in-out forwards;
+  }
+} */
+
+@layer base {
+  h1 {
+    @apply uppercase text-6xl font-bold opacity-50;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-6 py-3 bg-drk-gray text-white rounded-lg hover:bg-green-600 transition uppercase z-10
+  }
+
+  .form-control {
+    @apply border border-gray-500 rounded-lg px-2 py-2 mb-2 w-full focus:outline-dashed focus:border-0 focus:outline-cgreen placeholder:text-gray-600 hover:scale-105 cursor-pointer
+  }
+}
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 16px;
+
+  @variant md {
+    padding-inline: 0px
+  }
+}
